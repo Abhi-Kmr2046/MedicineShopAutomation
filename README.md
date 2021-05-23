@@ -1,4 +1,5 @@
 # Medicine Shop Automation Software by CodeCannibals
+## Software Engineering Project IIT Kharagpur
 
 ## About the software
 
@@ -7,21 +8,19 @@ The Medicine Shop Automation Software’s purpose is to automate Medicine Shop m
 
 
 ## Pre-requisites
-
-
-Python must be installed on your computer. Go to [link](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu) to get detailed instructions for installing the latest version of python on the Linux platform.
-
-
-Django must be installed on your computer. Go to [link](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-20-04) to get detailed instructions for installing the latest version of Django on the Linux platform.
-
-
-A [browser](https://www.google.com/aclk?sa=l&ai=DChcSEwj32_KpxOfvAhVR10wCHUl8CPEYABABGgJ0bQ&sig=AOD64_1JzL_elPFDLixEd5Ikf0ZpdVSyQA&q&adurl&ved=2ahUKEwjOouqpxOfvAhWloekKHXtRAjgQ0Qx6BAgDEAE) must be installed in order to run the software.
+Python 3.8.5  
+Django 3.1.7  
+Newer versions might have problem with the code.  
+To install django  
+```bash
+pip install django==3.1.7
+```
 
 
 ### For testing : 
 
 
-In order to test the code, you need to install the [coverage](https://zoomadmin.com/HowToInstall/UbuntuPackage/python3-coverage) package. A simple command as below should work or you may go to the link for further installation instructions.
+In order to test the code, you need to install the coverage package. A simple command as below should work or you may go to the link for further installation instructions.
 
 
 
