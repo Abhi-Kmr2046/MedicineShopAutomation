@@ -28,31 +28,17 @@ In order to test the code, you need to install the [coverage](https://zoomadmin.
 ```bash
 pip install coverage
 ```
-## Installation
+## How to use
+- `git clone https://github.com/Abhi-Kmr2046/MedicineShopAutomation.git`
+- `cd MedicineShopAutomation/msa`
+- `python manage.py runserver`
 
-
-Download the project's source file from Moodle Website. Then go to the command line and enter into the directory in which you have downloaded the files.
-
-```bash
-cd Downloads
-```
-Then change your directory to the msa folder.
-
-```bash
-cd msa
-```
-
-Then run the following commands step by step.
-
-```bash
-python manage.py runserver
-```
-This will open the software in your browser. Use the details below in order to log in and use the software, you can change the password later.
+This will start a local server. Open the link in a browser. 
 
 #### Username : admin
 #### Password : hello
 
-
+If password doesn't work create a new superuser.
 ### [Optional] Create new user:
  
 ```bash
@@ -70,11 +56,10 @@ The software is completely self-explanatory.
 
 ## Testing
 
-Go to the directory of the software having the manage.py file.
-
+Go to the msa directory.
 
 ```bash
-cd Downloads/msa
+cd /MedicineShopAutomation/msa
 ```
 In this directory, run the following commands in order to automatedly test the software.
 
